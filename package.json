@@ -1,6 +1,7 @@
 {
   "name": "harmony-ts",
   "version": "0.1.0",
+  "description": "TypeScript bindings for Harmony - OpenAI message processing library",
   "author": "zacharytamas <zachary@tamas.sh>",
   "license": "Apache-2.0",
   "repository": {
@@ -27,7 +28,12 @@
   "main": "./dist/openai_harmony.js",
   "types": "./dist/openai_harmony.d.ts",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "local-release": "changeset version && changeset publish",
+    "prepublishOnly": "bun run ci",
+    "ci": "bun run lint && bun run build",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.3",
