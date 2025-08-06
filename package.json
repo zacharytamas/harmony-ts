@@ -1,13 +1,13 @@
 {
   "name": "harmony-ts",
-  "module": "dist/harmony.js",
+  "module": "dist/openai_harmony.js",
   "type": "module",
   "files": [
     "README.md",
     "dist/"
   ],
-  "main": "./dist/harmony.js",
-  "types": "./dist/harmony.d.ts",
+  "main": "./dist/openai_harmony.js",
+  "types": "./dist/openai_harmony.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
