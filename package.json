@@ -1,5 +1,23 @@
 {
   "name": "harmony-ts",
+  "version": "0.1.0",
+  "author": "zacharytamas <zachary@tamas.sh>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharytamas/harmony-ts.git"
+  },
+  "homepage": "https://github.com/zacharytamas/harmony-ts#readme",
+  "bugs": {
+    "url": "https://github.com/zacharytamas/harmony-ts/issues"
+  },
+  "keywords": [
+    "openai",
+    "typescript",
+    "harmony",
+    "wasm",
+    "message-processing"
+  ],
   "module": "dist/openai_harmony.js",
   "type": "module",
   "files": [
