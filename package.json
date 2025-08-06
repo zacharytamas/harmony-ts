@@ -1,0 +1,22 @@
+{
+  "name": "harmony-ts",
+  "module": "dist/harmony.js",
+  "type": "module",
+  "files": [
+    "README.md",
+    "dist/"
+  ],
+  "main": "./dist/harmony.js",
+  "types": "./dist/harmony.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@wasm-tool/rollup-plugin-rust": "^3.0.5",
+    "@wasm-tool/wasm-pack-plugin": "^1.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
