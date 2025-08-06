@@ -1,7 +1,7 @@
 {
-  "name": "harmony-ts",
+  "name": "openai-harmony",
   "version": "0.2.0",
-  "description": "TypeScript bindings for Harmony - OpenAI message processing library",
+  "description": "UNOFFICIAL TypeScript bindings for OpenAI Harmony - OpenAI message processing library",
   "author": "zacharytamas <zachary@tamas.sh>",
   "license": "Apache-2.0",
   "repository": {
