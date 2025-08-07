@@ -4,6 +4,12 @@ This will be a very short-lived project because it will be superseded by OpenAI'
 
 ## Usage
 
+The WASM build and JS/TS wrapper is available on NPM as `openai-harmony`:
+
+```shell
+bun add openai-harmony
+```
+
 ```ts
 import { load_harmony_encoding } from "openai-harmony";
 
