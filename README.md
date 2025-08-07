@@ -1,11 +1,11 @@
-# harmony-ts
+# openai-harmony
 
 This will be a very short-lived project because it will be superseded by OpenAI's official JavaScript version but as of today, 2025-08-06, it is not available yet. I have merely taken their Rust code and compiled it to WASM and made it usable via JavaScript.
 
 ## Usage
 
 ```ts
-import { load_harmony_encoding, HarmonyEncodingName } from "harmony-ts";
+import { load_harmony_encoding, HarmonyEncodingName } from "openai-harmony";
 
 const enc = await load_harmony_encoding(HarmonyEncodingName);
 ```
