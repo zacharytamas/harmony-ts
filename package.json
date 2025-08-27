@@ -1,12 +1,12 @@
 {
   "name": "openai-harmony",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "UNOFFICIAL TypeScript bindings for OpenAI Harmony - OpenAI message processing library",
   "author": "zacharytamas <zachary@tamas.sh>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zacharytamas/harmony-ts.git"
+    "url": "git+https://github.com/zacharytamas/harmony-ts.git"
   },
   "homepage": "https://github.com/zacharytamas/harmony-ts#readme",
   "bugs": {

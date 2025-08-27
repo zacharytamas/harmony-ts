@@ -1,5 +1,11 @@
 # harmony-ts
 
+## 0.4.0
+
+### Minor Changes
+
+- 16ed33f: Merge latest upstream Harmony changes
+
 ## 0.3.0
 
 ### Minor Changes
